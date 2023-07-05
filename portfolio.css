@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.zoom {
+    transition: transform .5s;
+}
+
+.zoom:hover {
+    transform: scale(1.3);
+}
+
+.portfolio-logo-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.portfolio-navbar-bg-color {
+    background-color: white !important;
+}
+
+.portfolio-logo-name {
+    font-family: "Comic Sans MS";
+}
+
+.portfolio-nav-text {
+    font-family: "Comic Sans MS";
+}
+
+#bannerSectionPortfolioSmallDevices {
+    background-image: linear-gradient(to right, #f26730, #f28430, #f2a230);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.greeting-portfolio {
+    font-family: "Verdana";
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.greeting-portfolio-name {
+    color: white;
+}
+
+.para-banner-section-portfolio {
+    font-family: "Verdana";
+    font-size: 20px;
+}
+
+.inside-para-style {
+    color: white;
+    /* font-weight: bold; */
+}
+
+.portfolio-profile-image {
+    height: 260px;
+    width: 260px;
+    border-width: 4px;
+    border-style: solid;
+    border-top-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    border-bottom-left-radius: 50px;
+    border-color: #ffffff #000000 #ffffff;
+    box-shadow: 10px 10px #fcbc68;
+}
+
+.portfolio-icon-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.portfolio-icon {
+    font-size: 32px;
+    color: #f28430;
+    transition: transform .5s;
+}
+
+.portfolio-icon:hover {
+    transform: scale(1.3);
+}
+
+.padding-youtube-icon-container {
+    padding: 8px;
+}
+
+.aboutme-button-portfolio {
+    background-color: #ffffff;
+    color: #f28430;
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: "Verdana";
+}
+
+.about-me-portfolio-button-text {
+    color: #f28430;
+    font-size: 14px;
+    text-decoration: none !important;
+    transition: color 1s, font-size 1s;
+}
+
+.about-me-portfolio-button-text:hover {
+    color: #f28430;
+    font-size: 16px;
+}
+
+#aboutMeSectionPortfolio {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-me-text-container {
+    background-image: linear-gradient(to left, #faca9b, #f0e3d1, #f0e9d1);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+
+.about-me-heading {
+    font-family: "Caveat";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    transition: color .5s;
+}
+
+.about-me-heading:hover {
+    color: #f28430;
+}
+
+.about-me-text {
+    font-family: "Caveat";
+    padding: 5px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.kiit-text-in-about-me {
+    color: #278203;
+    font-weight: 500;
+}
+
+.nxtwave-text-about-me {
+    color: #0b72d9;
+}
+
+.profile-image-outer-container-about-me-portfolio {
+    background-image: linear-gradient(to top, #faca9b, #f0e3d1, #f0e9d1);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.profile-image-container-about-me-portfolio {
+    background-image: linear-gradient(to left, #faca9b, #f0e3d1, #f0e9d1);
+    padding: 8px;
+    border-radius: 20px;
+    /* height: 730px; */
+}
+
+.profile-image-about-me-portfolio {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+#bannerSectionPortfolioMediumDevices {
+    background-image: linear-gradient(to right, #f26730, #f28430, #f2a230);
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 80vh;
+}
+
+.container-height-medium {
+    height: 80vh;
+}
+
+#bannerSectionPortfolioLargeDevices {
+    background-image: linear-gradient(to right, #f26730, #f28430, #f2a230);
+    /* padding: 100px; */
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 90vh;
+}
+
+.container-height-large {
+    height: 90vh;
+}
+
+.portfolio-profile-image-large-devices {
+    height: 300px;
+    width: 300px;
+    border-width: 4px;
+    border-style: solid;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 50px;
+    border-color: #ffffff #000000 #ffffff;
+    box-shadow: 10px 10px #fcbc68;
+}
+
+.name-in-about-me-portfolio {
+    font-family: "Caveat";
+    font-size: 32px;
+    margin-top: 25px;
+}
+
+.job-roll-about-me-portfolio {
+    font-family: "Caveat";
+    font-size: 20px;
+}
+
+.about-me-contact-portfolio {
+    font-family: "Caveat";
+    font-size: 24px;
+    font-weight: bold;
+    color: #f26730;
+}
+
+.resume-button {
+    background-image: linear-gradient(#f26730, #f28430, #f2a230);
+    height: 45px;
+    width: 130px;
+    padding: 5px;
+    border-radius: 8px;
+    border-width: 0px;
+    color: #ffffff;
+    font-family: "Verdana";
+}
+
+#skillsAbilitiesSectionPortfolio {
+    background-image: linear-gradient(to right, #f26730, #f28430, #f2a230);
+    padding: 20px;
+}
+
+.heading-skills-and-abilities {
+    font-family: "Caveat";
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.skills-transparent-container-portfolio {
+    background-color: transparent;
+    /* height: 200px; */
+    border-radius: 12px;
+    opacity: 1;
+    padding: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skill-container-portfolio {
+    height: 145px;
+    width: 145px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.height {
+    font-size: 50px;
+    color: white;
+}
+
+.skill-icon-portfolio {
+    height: 70px;
+    width: 70px;
+}
+
+#myEducationContainerPortfolio {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.my-education-inner-container {
+    background-image: linear-gradient(to left, #faca9b, #f0e3d1, #f0e9d1);
+    padding: 10px;
+    border-radius: 15px;
+    width: 90%;
+}
+
+.heading-my-education-section-portfolio {
+    font-family: "Caveat";
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    transition: color .5s;
+}
+
+.heading-my-education-section-portfolio:hover {
+    color: orange;
+}
+
+.education-container {
+    background-color: transparent;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.education-college-image {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.heading-my-education-text-container {
+    font-family: "Caveat";
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.para-my-education-text-container {
+    font-family: "Caveat";
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.status-my-education-text-container {
+    color: green;
+    font-family: "Caveat";
+    text-align: center;
+    font-size: 22px;
+}
+
+.education-container-small {
+    background-color: transparent;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 240px;
+    width: 538px;
+}
+
+.education-college-image-small {
+    height: 236px;
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.education-container-medium {
+    background-color: transparent;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 240px;
+    width: 777px;
+}
+
+.education-college-image-medium {
+    height: 236px;
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#myProjectsContainerPortfolio {
+    background-image: linear-gradient(to right, #f26730, #f28430, #f2a230);
+    padding: 20px;
+}
+
+.projects-container-1 {
+    background-image: url('https://res.cloudinary.com/dutyjapri/image/upload/v1687365969/food-munch_tbu51f.jpg');
+    background-size: cover;
+    border-style: solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: white;
+    height: 250px;
+    width: 450px;
+}
+
+.project-hover-container {
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: transform 0.5s box-shadow 0.5s;
+}
+
+.project-hover-container:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 8px 8px #f0e9d1;
+}
+
+.heading-my-projects-hover-container {
+    font-family: "Verdana";
+    font-size: 32px;
+    text-align: center;
+    background-image: linear-gradient(to left, #faca9b, #f0e3d1, #f0e9d1);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
+}
+
+.subscript-text-projects {
+    font-family: "Caveat";
+    font-size: 18px;
+}
+
+.para-projects-container {
+    font-family: "Verdana";
+    font-size: 14px;
+    text-align: justify;
+}
+
+.para-button-container-projects {
+    display: none;
+}
+
+.button-projects-container {
+    background-image: linear-gradient(to right, #f26730, #f28430, #f2a230);
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    border-width: 0px;
+    color: white;
+}
+
+.projects-container-2 {
+    background-image: url('https://res.cloudinary.com/dutyjapri/image/upload/v1687407029/WhatsApp_Image_2023-06-22_at_09.38.57_z0z7zu.jpg');
+    background-size: cover;
+    border-style: solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: white;
+    height: 250px;
+    width: 450px;
+}
+
+.close-button-projects-container {
+    border-width: 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: red;
+}
+
+.view-more-button-projects {
+    background-color: white;
+    height: 35px;
+    width: 125px;
+    border-radius: 10px;
+    color: #f28430;
+    border-width: 0px;
+    font-family: "Verdana";
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.projects-container-3 {
+    background-image: url('https://res.cloudinary.com/dutyjapri/image/upload/v1688224017/Fly-Buy_ly2gwm.jpg');
+    background-size: cover;
+    border-style: solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: white;
+    height: 250px;
+    width: 450px;
+}
+
+.projects-container-4 {
+    background-image: url('https://res.cloudinary.com/dutyjapri/image/upload/v1688224641/Guessing_Game_uplqkh.jpg');
+    background-size: cover;
+    border-style: solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-color: white;
+    height: 250px;
+    width: 450px;
+}
+
+#getInTouchSectionPortfolio {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.row-get-in-touch-section {
+    height: 100px;
+}
+
+.heading-get-in-touch {
+    font-family: "Caveat";
+    color: #f28430;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center !important;
+}
+
+.heading-2-get-in-touch {
+    font-family: "Caveat";
+    color: #f28430;
+    font-weight: bold;
+    font-size: 66px;
+}
+
+.contact-me-button {
+    background-image: linear-gradient(to right, #f26730, #f28430, #f2a230);
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+@keyframes animation1 {
+    0% {
+        background-color: #f2a230;
+
+    }
+
+    25% {
+        background-color: #f28430;
+        width: 35px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    50% {
+        background-color: #f26730;
+    }
+
+    100% {
+        background-color: #f2a230;
+    }
+}
+
+.animation-container-1 {
+    height: 100px;
+    width: 20px;
+    float: left;
+    background-color: #f2a230;
+    animation: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation2 {
+    25% {
+        background-color: #f2a230;
+        width: 15px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    0% {
+        background-color: #f28430;
+    }
+
+    50% {
+        background-color: #f26730;
+    }
+
+    100% {
+        background-color: #f28430;
+    }
+
+}
+
+.animation-container-2 {
+    height: 100px;
+    width: 20px;
+    float: left;
+    background-color: #f28430;
+    animation: animation2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation3 {
+    50% {
+        background-color: #f2a230;
+        width: 45px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    25% {
+        background-color: #f28430;
+    }
+
+    0% {
+        background-color: #f26730;
+    }
+
+    100% {
+        background-color: #f26730;
+    }
+}
+
+.animation-container-3 {
+    height: 100px;
+    width: 20px;
+    float: left;
+    background-color: #f26730;
+    animation: animation3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation4 {
+    0% {
+        background-color: #f2a230;
+        left: 0px;
+        top: 100px;
+    }
+
+    25% {
+        background-color: #f28430;
+        left: 150px;
+        top: 100px;
+        border-radius: 20px;
+    }
+
+    50% {
+        background-color: #f26730;
+        left: 10px;
+        top: 100px;
+        border-radius: 20px;
+    }
+
+    100% {
+        background-color: #f2a230;
+        left: 0px;
+        top: 100px;
+    }
+}
+
+.animation-container-4 {
+    height: 20px;
+    width: 20px;
+    float: left;
+    position: absolute;
+    background-color: #f26730;
+    animation: animation4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.beside-animation-container {
+    height: 100px;
+}
+
+.image-contact-us-section {
+    height: 100px;
+    width: 90vw;
+}
+
+.input-box-get-in-touch-form {
+    height: 40px;
+    width: 82%;
+    border-radius: 8px;
+    border-width: 0px;
+    padding: 8px;
+    margin-left: 15px;
+}
+
+.input-container {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    text-align: left;
+}
+
+.text-input-container {
+    font-family: "Verdana";
+    font-size: 22px;
+    color: #f28430;
+}
+
+.textarea-form-get-in-touch {
+    width: 100%;
+    height: 100px;
+    border-color: #f28430;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text-textarea {
+    font-family: "Verdana";
+    font-size: 20px;
+    color: black;
+}
+
+.close-button-form {
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 28px;
+    color: red;
+}
+
+.submit-button {
+    background-image: linear-gradient(to left, #f26730, #f28430, #f2a230);
+    color: #ffffff;
+    /* font-size: 22px; */
+    height: 35px;
+    width: 130px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.reset-button {
+    height: 35px;
+    /* width: 100px; */
+    border-width: 1px;
+    border-color: #f28430;
+    border-radius: 10px;
+    color: #f28430;
+}
+
+#footerSectionPortfolio {
+    background-color: #2b2a28;
+    /* height: 600px; */
+}
+
+.container-1-footer-section-portfolio {
+    /* height: 130px; */
+    padding: 20px;
+}
+
+.container-2-footer-section-portfolio {
+    /* height: 170px; */
+    padding: 20px;
+}
+
+.container-3-footer-section-portfolio {
+    /* height: 250px; */
+    padding: 20px;
+}
+
+.horizontal-rule-footer-section {
+    width: 90%;
+    border-width: 2px;
+    border-color: white;
+}
+
+.heading-portfolio-footer-section {
+    font-family: "Verdana";
+    color: white;
+}
+
+.para-portfolio-footer-section {
+    font-family: "Verdana";
+    font-size: 16px;
+    color: white;
+}
+
+.anchor-element-footer-portfolio {
+    font-family: "Verdana";
+    font-size: 16px;
+    color: white;
+    text-decoration: none !important;
+}
+
+.anchor-element-footer-portfolio:hover {
+    color: #f28430;
+}
+
+@keyframes heartAnimation {
+    0% {
+        font-size: 18px;
+    }
+
+    20% {
+        font-size: 20px;
+    }
+
+    40% {
+        font-size: 18px;
+    }
+
+    60% {
+        font-size: 20px;
+    }
+
+    80% {
+        font-size: 18px;
+    }
+
+    100% {
+        font-size: 20px;
+    }
+}
+
+.heart-portfolio-footer-section {
+    font-size: 18px;
+    color: #f28430;
+    animation: heartAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.dimensions-footer {
+    height: 45px;
+    width: 45px;
+    padding: 9px;
+
+}
+
+.portfolio-icon-footer {
+    font-size: 28px;
+}
