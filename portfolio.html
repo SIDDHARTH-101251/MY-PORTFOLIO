@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/785c298771.js" crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light portfolio-navbar-bg-color fixed-top">
+        <a class="navbar-brand" href="#">
+            <div class="d-flex flex-row justify-content-evenly">
+                <img src="https://th.bing.com/th/id/OIG.6Q_w_eaUp78o0qRPWKa_?pid=ImgGn" class="portfolio-logo-image zoom" />
+                <p class="portfolio-logo-name pt-3 ml-2 zoom">Siddharth</p>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link portfolio-nav-text" href="#bannerSectionPortfolioSmallDevices">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link portfolio-nav-text" href="#aboutMeSectionPortfolio">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link portfolio-nav-text" href="#skillsAbilitiesSectionPortfolio">Skills</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link portfolio-nav-text" href="#" tabindex="-1" aria-disabled="true">Education</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link portfolio-nav-text" href="#" tabindex="-1" aria-disabled="true">Projects</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link portfolio-nav-text" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="bannerSectionPortfolioSmallDevices" class="d-md-none">
+        <div class="container-fluid">
+            <div class="row shadow-md">
+                <div class="col-12 d-flex flex-row justify-content-between">
+                    <div>
+                        <h1 class="greeting-portfolio">Hi There,<br>I'm <span class="greeting-portfolio-name">Siddharth</span>.</h1>
+                        <p class="para-banner-section-portfolio">I am into <span class="inside-para-style">Web Development</span>.</p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="https://res.cloudinary.com/dutyjapri/image/upload/v1686983621/Untitled_design_nj6jne.png" class="portfolio-profile-image" title="Siddharth Singh" />
+                        </div>
+                        <div class="d-flex flex-row justify-content-center p-4">
+                            <button class="aboutme-button-portfolio">
+                                <a href="#aboutMeSectionPortfolio" class="about-me-portfolio-button-text">
+                                    About me <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <a href="https://github.com/SIDDHARTH-101251">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-github portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/siddharthsingh2029/">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-linkedin portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/SIDDHAR85938717">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-twitter portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC5bmQz-Wg89-GAy39DsAzwQ">
+                            <div class="portfolio-icon-container padding-youtube-icon-container">
+                                <i class="fa-brands fa-youtube portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100093500540796">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-square-facebook portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/siddharth101251/">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-square-instagram portfolio-icon"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bannerSectionPortfolioMediumDevices" class="d-none d-md-block d-xl-none">
+        <div class="container-fluid d-flex flex-column justify-content-center container-height-medium">
+            <div class="row">
+                <div class="col-8">
+                    <h1 class="greeting-portfolio">Hi There,<br>I'm <span class="greeting-portfolio-name">Siddharth</span>.</h1>
+                    <p class="para-banner-section-portfolio">I am into <span class="inside-para-style">Web Development</span>.</p>
+                    <button class="aboutme-button-portfolio">
+                        <a href="#aboutMeSectionPortfolio" class="about-me-portfolio-button-text">
+                            About me <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </button>
+                    <div class="d-flex flex-row justify-content-evenly mt-4">
+                        <a href="https://github.com/SIDDHARTH-101251">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-github portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/siddharthsingh2029/">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-linkedin portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/SIDDHAR85938717">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-twitter portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC5bmQz-Wg89-GAy39DsAzwQ">
+                            <div class="portfolio-icon-container padding-youtube-icon-container">
+                                <i class="fa-brands fa-youtube portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100093500540796">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-square-facebook portfolio-icon"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/siddharth101251/">
+                            <div class="portfolio-icon-container">
+                                <i class="fa-brands fa-square-instagram portfolio-icon"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex flex-row justify-content-center">
+                        <img src="https://res.cloudinary.com/dutyjapri/image/upload/v1686983621/Untitled_design_nj6jne.png" class="portfolio-profile-image" title="Siddharth Singh" alt="loading" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bannerSectionPortfolioLargeDevices" class="d-none d-xl-block">
+        <div class="container-fluid d-flex flex-column justify-content-center container-height-large">
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-between">
+                    <div>
+                        <h1 class="greeting-portfolio">Hi There,<br>I'm <span class="greeting-portfolio-name">Siddharth</span>.</h1>
+                        <p class="para-banner-section-portfolio">I am into <span class="inside-para-style">Web Development</span>.</p>
+                        <button class="aboutme-button-portfolio">
+                            <a href="#aboutMeSectionPortfolio" class="about-me-portfolio-button-text">
+                                About me <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </button>
+                        <div class="d-flex flex-row justify-content-evenly mt-4">
+                            <a href="https://github.com/SIDDHARTH-101251">
+                                <div class="portfolio-icon-container">
+                                    <i class="fa-brands fa-github portfolio-icon"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/siddharthsingh2029/">
+                                <div class="portfolio-icon-container">
+                                    <i class="fa-brands fa-linkedin portfolio-icon"></i>
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/SIDDHAR85938717">
+                                <div class="portfolio-icon-container">
+                                    <i class="fa-brands fa-twitter portfolio-icon"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UC5bmQz-Wg89-GAy39DsAzwQ">
+                                <div class="portfolio-icon-container padding-youtube-icon-container">
+                                    <i class="fa-brands fa-youtube portfolio-icon"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100093500540796">
+                                <div class="portfolio-icon-container">
+                                    <i class="fa-brands fa-square-facebook portfolio-icon"></i>
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/siddharth101251/">
+                                <div class="portfolio-icon-container">
+                                    <i class="fa-brands fa-square-instagram portfolio-icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://res.cloudinary.com/dutyjapri/image/upload/v1686983621/Untitled_design_nj6jne.png" class="portfolio-profile-image-large-devices" title="Siddharth Singh" alt="loading" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="aboutMeSectionPortfolio">
+        <div class="container-fluid">
+            <div class="row d-flex flex-row justify-content-between">
+                <div class="d-none col-md-4 d-md-block profile-image-outer-container-about-me-portfolio ">
+                    <div class="profile-image-container-about-me-portfolio d-flex flex-row justify-content-center mb-3">
+                        <center><img src="https://res.cloudinary.com/dutyjapri/image/upload/v1686983976/Untitled_design_5_m382gj.png" class="profile-image-about-me-portfolio d-bolck" title="Siddharth Singh" /></center>
+                    </div>
+                    <h4 class="about-me-contact-portfolio d-none d-md-block mt-5">Email: 21052029@kiit.ac.in</h4>
+                    <h4 class="about-me-contact-portfolio c- none d-md-block">Place: Jaunpur, India - 222175</h4>
+                    <div class="text-center mt-4 d-none d-md-block">
+                        <a href="https://drive.google.com/file/d/1sU5FL3KQI5QwMf7FhSeaJJZOvnGQ0ru5/view?usp=sharing">
+                            <button class="resume-button shadow-lg">Resume <i class="fa-solid fa-angle-right"></i></button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 about-me-text-container shadow-lg">
+                    <div class="text-center">
+                        <h1 class="about-me-heading">
+                            <i class="fa-solid fa-user-large"></i> <u> About Me </u>
+                        </h1>
+                    </div>
+                    <h3 class="name-in-about-me-portfolio"><b>I'm Siddharth</b></h3>
+                    <h6 class="job-roll-about-me-portfolio"><b>Full Stack Developer</b></h6>
+                    <p class="about-me-text shadow-md">
+                        I am currently pursuing my B.Tech in Computer Science Engineering (CSE)
+                        from <span class="kiit-text-in-about-me">Kalinga Institute of Industrial Technology (KIIT)</span>. Additionally, I have enrolled
+                        in the <span class="nxtwave-text-about-me">NxtWave CCBP academy</span> to enhance my skills and broaden my knowledge.
+                        As a highly passionate techie, I have successfully completed numerous frontend development projects.
+                        I am constantly seeking new learning opportunities and staying updated in this ever-evolving field.
+                        Feel free to connect with me for exciting collaborations and ventures. Let's grow together! 🌱🌱🍁
+                    </p>
+                    <h4 class="about-me-contact-portfolio d-md-none">Email: 21052029@kiit.ac.in</h4>
+                    <h4 class="about-me-contact-portfolio d-md-none">Place: Jaunpur, India - 222175</h4>
+                    <div class="text-center mt-4 d-md-none">
+                        <a href="https://drive.google.com/file/d/1sU5FL3KQI5QwMf7FhSeaJJZOvnGQ0ru5/view?usp=sharing">
+                            <button class="resume-button shadow-lg">Resume <i class="fa-solid fa-angle-right"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="skillsAbilitiesSectionPortfolio">
+        <div class="container-fluid skills-transparent-container-portfolio shadow-lg">
+            <h1 class="heading-skills-and-abilities">
+                <i class="fa-solid fa-laptop-code fa-lg"></i>
+                <u>Skills & Abilities </u>
+            </h1>
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio d-flex flex-column justify-content-center">
+                        <div class="text-center mt-1">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">HTML 5</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio d-flex flex-column justify-content-center">
+                        <div class="text-center mt-1">
+                            <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-programming/512/css-512.png" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">CSS 3</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio">
+                        <div class="text-center mt-1">
+                            <img src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">JavaScript</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio">
+                        <div class="text-center mt-1">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">Bootstrap</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio">
+                        <div class="text-center mt-1">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">Python</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio">
+                        <div class="text-center mt-1">
+                            <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/c_original_logo_icon_146611.png" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">C</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio">
+                        <div class="text-center mt-1">
+                            <img src="https://user-images.githubusercontent.com/42747200/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">C++</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio">
+                        <div class="text-center mt-1">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">Java</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio">
+                        <div class="text-center mt-1">
+                            <img src="https://cdn.cdnlogo.com/logos/m/10/mysql.svg" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">MySQL</h4>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-row justify-content-center">
+                    <div class="skill-container-portfolio">
+                        <div class="text-center mt-1">
+                            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="skill-icon-portfolio" />
+                        </div>
+                        <h4 class="text-center mt-2">GitHub</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myEducationContainerPortfolio">
+        <h4 class="heading-my-education-section-portfolio">
+            <i class="fa-solid fa-user-graduate"></i>
+            <u>My Education</u>
+        </h4>
+        <center>
+            <div class="col-12 my-education-inner-container mt-3 d-flex flex-row justify-content-center">
+                <div class="education-container d-sm-none">
+                    <img src="https://static.theprint.in/wp-content/uploads/2021/09/kiit-real.jpg?compress=true&quality=80&w=376&dpr=2.6" class="education-college-image" />
+                    <div class="p-1 d-flex flex-column justify-content-center">
+                        <h1 class="heading-my-education-text-container">B.Tech in Computer Science</h1>
+                        <p class="para-my-education-text-container">KIIT UNIVERSITY | Bhubaneswar - 751024</p>
+                        <p class="status-my-education-text-container">2021 - 2025 | Pursuing</p>
+                    </div>
+                </div>
+                <div class="education-container-small d-none d-sm-block d-md-none">
+                    <div class="d-flex flex-row justify-content-between">
+                        <img src="https://static.theprint.in/wp-content/uploads/2021/09/kiit-real.jpg?compress=true&quality=80&w=376&dpr=2.6" class="education-college-image-small" />
+                        <div class="p-1 d-flex flex-column justify-content-center">
+                            <h1 class="heading-my-education-text-container">B.Tech in Computer Science</h1>
+                            <p class="para-my-education-text-container">KIIT UNIVERSITY | Bhubaneswar - 751024</p>
+                            <p class="status-my-education-text-container">2021 - 2025 | Pursuing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-container-medium d-none d-md-block">
+                    <div class="d-flex flex-row justify-content-between">
+                        <img src="https://static.theprint.in/wp-content/uploads/2021/09/kiit-real.jpg?compress=true&quality=80&w=376&dpr=2.6" class="education-college-image-medium" />
+                        <div class="p-1 d-flex flex-column justify-content-center">
+                            <h1 class="heading-my-education-text-container">B.Tech in Computer Science</h1>
+                            <p class="para-my-education-text-container">KIIT UNIVERSITY | Bhubaneswar - 751024</p>
+                            <p class="status-my-education-text-container">2021 - 2025 | Pursuing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-education-inner-container mt-3 d-flex flex-row justify-content-center">
+                <div class="education-container d-sm-none">
+                    <img src="https://www.sarkarinaukriexams.com/images/editor/1588668693st_xaviers_school.jpg" class="education-college-image" />
+                    <div class="p-1 d-flex flex-column justify-content-center">
+                        <h1 class="heading-my-education-text-container">Intermediate | CBSE</h1>
+                        <p class="para-my-education-text-container">St. Xavier's School | Badlapur - 222125</p>
+                        <p class="status-my-education-text-container">2019 - 2021 | Completed</p>
+                    </div>
+                </div>
+                <div class="education-container-small d-none d-sm-block d-md-none">
+                    <div class="d-flex flex-row justify-content-between">
+                        <img src="https://www.sarkarinaukriexams.com/images/editor/1588668693st_xaviers_school.jpg" class="education-college-image-small" />
+                        <div class="p-1 d-flex flex-column justify-content-center">
+                            <h1 class="heading-my-education-text-container">Intermediate | CBSE</h1>
+                            <p class="para-my-education-text-container">St. Xavier's School | Badlapur - 222125</p>
+                            <p class="status-my-education-text-container">2019 - 2021 | Completed</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="education-container-medium d-none d-md-block">
+                    <div class="d-flex flex-row justify-content-between">
+                        <img src="https://www.sarkarinaukriexams.com/images/editor/1588668693st_xaviers_school.jpg" class="education-college-image-medium" />
+                        <div class="p-1 d-flex flex-column justify-content-center">
+                            <h1 class="heading-my-education-text-container">Intermediate | CBSE</h1>
+                            <p class="para-my-education-text-container">St. Xavier's School | Badlapur - 222125</p>
+                            <p class="status-my-education-text-container">2019 - 2021 | Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
+    <div id="myProjectsContainerPortfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 d-flex flex-row justify-content-center mt-5">
+                    <div class="projects-container-1 d-flex flex-column justify-content-end" id="slide">
+                        <div class="project-hover-container" onclick="projectsStyle()">
+                            <h1 class="heading-my-projects-hover-container">Food Munch<sub class="subscript-text-projects">Click</sub></h1>
+                            <div class="p-2 para-button-container-projects" id="paraButton">
+                                <p class="para-projects-container">Food Munch responsive website build using HTML, CSS, JavaScript</p>
+                                <div class="text-center">
+                                    <a href="https://foodmunch101251.ccbp.tech/">
+                                        <button class="button-projects-container">View</button>
+                                    </a>
+                                    <button class="close-button-projects-container"><i class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 d-flex flex-row justify-content-center mt-5">
+                    <div class="projects-container-2 d-flex flex-column justify-content-end">
+                        <div class="project-hover-container" onclick="projectsStyle1()">
+                            <h1 class="heading-my-projects-hover-container">Navaratri<sub class="subscript-text-projects">Click</sub></h1>
+                            <div class="p-2 para-button-container-projects" id="paraButton1">
+                                <p class="para-projects-container">Navaratri website is dedicated to Maa Durga...</p>
+                                <div class="text-center">
+                                    <a href="https://navaratri101251.ccbp.tech/">
+                                        <button class="button-projects-container">View</button>
+                                    </a>
+                                    <button class="close-button-projects-container"><i class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 d-none d-md-block  mt-5">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="projects-container-3 d-flex flex-column justify-content-end">
+                            <div class="project-hover-container" onclick="projectsStyle2()">
+                                <h1 class="heading-my-projects-hover-container">Fly Buy<sub class="subscript-text-projects">Click</sub></h1>
+                                <div class="p-2 para-button-container-projects" id="paraButton2">
+                                    <p class="para-projects-container">Fly Buy is a an e-commerse website..</p>
+                                    <div class="text-center">
+                                        <a href="https://flybuy101251.ccbp.tech/">
+                                            <button class="button-projects-container">View</button>
+                                        </a>
+                                        <button class="close-button-projects-container"><i class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 d-none d-md-block mt-5">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="projects-container-4 d-flex flex-column justify-content-end">
+                            <div class="project-hover-container" onclick="projectsStyle3()">
+                                <h1 class="heading-my-projects-hover-container">Guessing Game<sub class="subscript-text-projects">Click</sub></h1>
+                                <div class="p-2 para-button-container-projects" id="paraButton3">
+                                    <p class="para-projects-container">This is a number guessing game built using JavaScript..</p>
+                                    <div class="text-center">
+                                        <a href="https://guessinggame101.ccbp.tech">
+                                            <button class="button-projects-container">View</button>
+                                        </a>
+                                        <button class="close-button-projects-container"><i class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button class="view-more-button-projects mb-5">View More <i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="getInTouchSectionPortfolio">
+        <div class="row-get-in-touch-section">
+            <div class="animation-container-1">
+
+            </div>
+            <div class="beside-animation-container">
+                <h1 class="heading-get-in-touch text-center"><i class="fa-solid fa-handshake"></i> Get In Touch</h1>
+            </div>
+        </div>
+        <div class="row-get-in-touch-section">
+            <div class="animation-container-2">
+
+            </div>
+            <div class="beside-animation-container">
+                <h1 class="heading-2-get-in-touch text-center"><i class="fa-solid fa-mobile"> </i> <i class="fa-solid fa-leaf"></i></h1>
+            </div>
+        </div>
+        <div class="row-get-in-touch-section">
+            <div class="animation-container-3">
+
+            </div>
+            <div class="beside-animation-container d-flex flex-column justify-content-end">
+                <div class="text-center ">
+                    <button type="button" class="contact-me-button" data-toggle="modal" data-target="#exampleModal">
+                        Contact Me
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="heading-get-in-touch text-center" id="exampleModalLabel"><i class="fa-solid fa-handshake"></i> Get In Touch</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form onsubmit="sendEmail(); reset(); return false;">
+                                        <div class="input-container text-input-container">
+                                            <i class="fa-solid fa-user"></i><input type="text" class="input-box-get-in-touch-form" placeholder="Name" value="" id="name" />
+                                        </div>
+                                        <br />
+                                        <div class="input-container text-input-container">
+                                            <i class="fa-solid fa-envelope"></i><input type="email" class="input-box-get-in-touch-form" placeholder="Email" value="" id="email" />
+                                        </div>
+                                        <br />
+                                        <div class="input-container text-input-container">
+                                            <i class="fa-solid fa-phone"></i><input type="text" class="input-box-get-in-touch-form" placeholder="Phone" value="" id="phone" />
+                                        </div>
+                                        <br />
+                                        <textarea class="textarea-form-get-in-touch text-textarea" placeholder="message" id="message"></textarea>
+                                        <div class="modal-footer">
+                                            <button type="button" class="close-button-form" data-dismiss="modal"><i class="fa-solid fa-rectangle-xmark"></i></button>
+                                            <button type="reset" class="reset-button">Reset</button>
+                                            <button type="submit" class="submit-button">Submit <i class="fa-sharp fa-solid fa-paper-plane"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="footerSectionPortfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 container-1-footer-section-portfolio">
+                    <h4 class="heading-portfolio-footer-section">Siddharth's Portfolio</h4>
+                    <p class="para-portfolio-footer-section">Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+                </div>
+                <div class="col-12 col-sm-6 container-2-footer-section-portfolio">
+                    <h4 class="heading-portfolio-footer-section">Quick Links</h4>
+                    <div class="d-flex flex-row justify-content-between pl-5 pr-5">
+                        <a href="#" class="anchor-element-footer-portfolio"><i class="fa-solid fa-angle-right"></i> Home</a>
+                        <a href="#" class="anchor-element-footer-portfolio"><i class="fa-solid fa-angle-right"></i> About</a>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between pl-5 pr-5">
+                        <a href="#" class="anchor-element-footer-portfolio"><i class="fa-solid fa-angle-right"></i> Skills</a>
+                        <a href="#" class="anchor-element-footer-portfolio"><i class="fa-solid fa-angle-right"></i> Education</a>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between pl-5 pr-5">
+                        <a href="#" class="anchor-element-footer-portfolio"><i class="fa-solid fa-angle-right"></i> Projects</a>
+                        <a href="#" class="anchor-element-footer-portfolio"><i class="fa-solid fa-angle-right"></i> Contact</a>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 container-3-footer-section-portfolio">
+                    <h4 class="heading-portfolio-footer-section">Contact Info</h4>
+                    <p class="para-portfolio-footer-section"><i class="fa-solid fa-phone"></i>&nbsp; +91 6392015759</p>
+                    <p class="para-portfolio-footer-section"><i class="fa-solid fa-envelope"></i>&nbsp; 21052029@kiit.ac.in</p>
+                    <p class="para-portfolio-footer-section"><i class="fa-solid fa-map-location-dot"></i>&nbsp; Jaunpur, India - 222175</p>
+
+                </div>
+                <div class="col-12 col-sm-6 d-flex flex-row justify-content-between">
+                    <a href="https://github.com/SIDDHARTH-101251" class="d-flex flex-column justify-content-center">
+                        <div class="portfolio-icon-container dimensions-footer">
+                            <i class="fa-brands fa-github portfolio-icon portfolio-icon-footer"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/siddharthsingh2029/" class="d-flex flex-column justify-content-center">
+                        <div class="portfolio-icon-container dimensions-footer">
+                            <i class="fa-brands fa-linkedin portfolio-icon portfolio-icon-footer"></i>
+                        </div>
+                    </a>
+                    <a href="https://twitter.com/SIDDHAR85938717" class="d-flex flex-column justify-content-center">
+                        <div class="portfolio-icon-container dimensions-footer">
+                            <i class="fa-brands fa-twitter portfolio-icon portfolio-icon-footer"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC5bmQz-Wg89-GAy39DsAzwQ" class="d-flex flex-column justify-content-center">
+                        <div class="portfolio-icon-container padding-youtube-icon-container dimensions-footer">
+                            <i class="fa-brands fa-youtube portfolio-icon portfolio-icon-footer"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100093500540796" class="d-flex flex-column justify-content-center">
+                        <div class="portfolio-icon-container dimensions-footer">
+                            <i class="fa-brands fa-square-facebook portfolio-icon portfolio-icon-footer"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/siddharth101251/" class="d-flex flex-column justify-content-center">
+                        <div class="portfolio-icon-container dimensions-footer">
+                            <i class="fa-brands fa-square-instagram portfolio-icon portfolio-icon-footer"></i>
+                        </div>
+                    </a>
+                </div>
+                <hr class="horizontal-rule-footer-section" />
+                <div class="col-12 text-center">
+                    <p class="heading-portfolio-footer-section">Deigned With <span class="heart-portfolio-footer-section"><i class="fa-solid fa-heart"></i></span> By Siddharth Singh</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "singhsiddharth101251@gmail.com",
+                Password: "536E7D7383D1419EE459421D3E59E70E9172",
+                To: '21052029@kiit.ac.in',
+                From: document.getElementById("email").value,
+                Subject: "New Contact!",
+                Body: "Name: " + document.getElementById("name").value +
+                    "<br/> Email: " + document.getElementById("email").value +
+                    "<br/> Phone No: " + document.getElementById("phone").value +
+                    "<br/> Message: " + document.getElementById("message").value
+            }).then(
+                message => alert("Message sent successfully!!")
+            );
+        }
+    </script>
+</body>
+
+</html>
